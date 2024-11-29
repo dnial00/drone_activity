@@ -13,7 +13,7 @@ def load_drone_anomalies(path):
     return pd.read_csv(path).head(100)  # Load only the first 100 rows for optimization
 
 # File Paths
-drone_anomaly_path = "C:/Users/DataMicron/Desktop/Work/MINDEF/drone_anomaly_actions.csv"
+drone_anomaly_path = "drone_anomaly_actions.csv"
 
 # Load Data
 drone_anomalies = load_drone_anomalies(drone_anomaly_path)
@@ -59,10 +59,11 @@ risk assessment, and executing Courses of Action (COAs) for the Lahad Datu regio
 """)
 
 # Layout: Left Panel (Drone Status, Statistics) | Right Panel (Map, COAs, Logs)
-left_col, right_col = st.columns([1.5, 2])
+left_col, right_col = st.columns([2, 1.5])
 
 # === Left Panel: Drone Status and Statistics ===
 with left_col:
+
     st.header("Drone Activity Status")
     drone_status = pd.DataFrame({
         "Drone ID": ["CTRM Aludra", "CTRM Aludra", "CTRM Aludra", "CTRM Aludra", "CTRM Aludra"],
@@ -72,27 +73,6 @@ with left_col:
     })
     st.table(drone_status)
 
-    st.header("Statistics and Insights")
-    # Resource Consumption Chart
-    resource_data = pd.DataFrame({
-        "Resource": ["Battery", "Ammunition", "Surveillance Time", "Maintenance Parts", 
-        "Fuel/Propellant", "Weapon Systems", "Data Bandwidth", "Sensor Utilization", 
-        "Cooling System", "Flight Hours"],
-        "Usage": [600, 300, 450, 200, 400, 250, 100, 350, 150, 500]
-    })
-    resource_chart = px.bar(resource_data, x="Resource", y="Usage", title="Resource Consumption")
-    st.plotly_chart(resource_chart, use_container_width=True)
-
-    # Probability of Casualties
-    casualties_data = pd.DataFrame({
-        "Operation Phase": ["Phase 1", "Phase 2", "Phase 3"],
-        "Probability (%)": [10, 25, 5]
-    })
-    casualties_chart = px.line(casualties_data, x="Operation Phase", y="Probability (%)", title="Probability of Casualties")
-    st.plotly_chart(casualties_chart, use_container_width=True)
-
-# === Right Panel: Map, COA Generation, Suspicious Activity Monitoring, and Logs ===
-with right_col:
     st.header("Mission Map and Anomalies")
 
     # Map Layer Toggle
@@ -167,53 +147,84 @@ with right_col:
         st.session_state.show_surveillance = False  # Reset surveillance
         st.success(f"Executing {chosen_coa}: {coa_data.loc[coa_data['COA'] == chosen_coa, 'Recommended Action'].values[0]}")
 
+# === Right Panel: Map, COA Generation, Suspicious Activity Monitoring, and Logs ===
+with right_col:
+    with st.container(border=True):
+        st.header("Statistics and Insights")
+        # Resource Consumption Chart
+        resource_data = pd.DataFrame({
+            "Resource": ["Battery", "Ammunition", "Surveillance Time", "Maintenance Parts", 
+            "Fuel/Propellant", "Weapon Systems", "Data Bandwidth", "Sensor Utilization", 
+            "Cooling System", "Flight Hours"],
+            "Usage": [600, 300, 450, 200, 400, 250, 100, 350, 150, 500]
+        })
+        resource_chart = px.bar(resource_data, x="Resource", y="Usage", title="Resource Consumption")
+        st.plotly_chart(resource_chart, use_container_width=True)
+
+    with st.container(border=True):
+        # Probability of Casualties
+        casualties_data = pd.DataFrame({
+            "Operation Phase": ["Phase 1", "Phase 2", "Phase 3"],
+            "Probability (%)": [10, 25, 5]
+        })
+        casualties_chart = px.line(casualties_data, x="Operation Phase", y="Probability (%)", title="Probability of Casualties")
+        st.plotly_chart(casualties_chart, use_container_width=True)
+
+        # === Drone Logs ===
+    st.header("CTRM Aludra Logs")
+    log_data = [
+        {"Timestamp": "2024-11-28 03:01", "Action": "CTRM Aludra deployed to Sector 1-5"},
+        {"Timestamp": "2024-11-27 12:10", "Action": "Signal lost for CTRM Aludra"},
+        {"Timestamp": "2024-11-27 02:13", "Action": "CTRM Aludra returned to base"},
+        {"Timestamp": "2024-11-27 01:40", "Action": "CTRM Aludra deployed to Sector 12-7"},
+        {"Timestamp": "2024-11-26 23:56", "Action": "Signal lost for CTRM Aludra"},
+        {"Timestamp": "2024-11-14 03:12", "Action": "CTRM Aludra returned to base"},
+        {"Timestamp": "2024-11-14 02:30", "Action": "CTRM Aludra deployed to Sector 5-11"},
+        {"Timestamp": "2024-11-05 17:20", "Action": "CTRM Aludra signal interupted"},
+        {"Timestamp": "2024-10-15 23:55", "Action": "CTRM Aludra returned to base"},
+        {"Timestamp": "2024-10-25 23:14", "Action": "Signal lost for CTRM Aludra"},
+        {"Timestamp": "2024-10-14 22:53", "Action": "CTRM Aludra deployed to Sector 3-2"}
+    ]
+    log_df = pd.DataFrame(log_data)
+    st.table(log_df)
+    
+
+left_col2, right_col2 = st.columns([1, 2])
+
 # === Suspicious Activity Monitoring ===
 if st.session_state.get("coa_selected"):
-    st.header("Drone Activity Monitoring")
 
-    # Show "Normal Operation" video
-    show_video("Normal Operation", "https://i.imgur.com/h4ghtfH.mp4", autoplay=True)
+    with left_col2:
+        st.header("Drone Activity Monitoring")
 
-    # Create a placeholder for the countdown
-    countdown_placeholder = st.empty()
+        # Show "Normal Operation" video
+        show_video("Normal Operation", "https://i.imgur.com/h4ghtfH.mp4", autoplay=True, loop=True)
 
-    # Simulate monitoring with a countdown
-    for remaining_time in range(10, 0, -1):
-        countdown_placeholder.info(f"Monitoring Selected Perimeter...")
-        time.sleep(1)
+        # Create a placeholder for the countdown
+        countdown_placeholder = st.empty()
 
-    # Trigger alert
-    st.session_state.alert_triggered = True
+        # Simulate monitoring with a countdown
+        for remaining_time in range(10, 0, -1):
+            countdown_placeholder.info(f"Monitoring Selected Perimeter...")
+            time.sleep(1)
 
-    # Update the placeholder to show the alert
-    countdown_placeholder.warning("⚠️ Suspicious activity detected!")
+        # Trigger alert
+        st.session_state.alert_triggered = True
 
-    if st.session_state.alert_triggered:
-        if st.button("View Surveillance Video"):
-            st.session_state.show_surveillance = True
+        # Update the placeholder to show the alert
+        countdown_placeholder.warning("⚠️ Suspicious activity detected!")
 
-    if st.session_state.show_surveillance:
-        # Show surveillance video
-        show_video(
-            "Suspicious Activity Detected",
-            "https://i.imgur.com/o64VTM8.mp4",
-            autoplay=True, loop=True
-        )
+        if st.session_state.alert_triggered:
+            if st.button("View Surveillance Video"):
+                st.session_state.show_surveillance = True
 
-# === Drone Logs ===
-st.header("CTRM Aludra Logs")
-log_data = [
-    {"Timestamp": "2024-11-28 03:01", "Action": "CTRM Aludra deployed to Sector 1-5"},
-    {"Timestamp": "2024-11-27 12:10", "Action": "Signal lost for CTRM Aludra"},
-    {"Timestamp": "2024-11-27 02:13", "Action": "CTRM Aludra returned to base"},
-    {"Timestamp": "2024-11-27 01:40", "Action": "CTRM Aludra deployed to Sector 12-7"},
-    {"Timestamp": "2024-11-26 23:56", "Action": "Signal lost for CTRM Aludra"},
-    {"Timestamp": "2024-11-14 03:12", "Action": "CTRM Aludra returned to base"},
-    {"Timestamp": "2024-11-14 02:30", "Action": "CTRM Aludra deployed to Sector 5-11"},
-    {"Timestamp": "2024-11-05 17:20", "Action": "CTRM Aludra signal interupted"},
-    {"Timestamp": "2024-10-15 23:55", "Action": "CTRM Aludra returned to base"},
-    {"Timestamp": "2024-10-25 23:14", "Action": "Signal lost for CTRM Aludra"},
-    {"Timestamp": "2024-10-14 22:53", "Action": "CTRM Aludra deployed to Sector 3-2"}
-]
-log_df = pd.DataFrame(log_data)
-st.table(log_df)
+    with right_col2:
+        st.header("")
+        with st.container(border = True):
+            if st.session_state.show_surveillance:
+                # Show surveillance video
+                show_video(
+                    "Suspicious Activity Detected",
+                    "https://i.imgur.com/o64VTM8.mp4",
+                    autoplay=True, loop=True
+                )
