@@ -1,0 +1,101 @@
+intel_source_reliability,image_clarity,proximity_to_sensitive_area,time_of_day,personnel_involvement,unusual_behavior_score,equipment_detected,communication_activity,threat_level,visibility_condition,terrain_type,proximity_to_allies,recent_activity_history,risk_score,risk_category,latitude,longitude
+Highly Reliable,Clear,28.07,Afternoon,4,2.97,Tools,4,Low,Good,Urban,32.62,2,42.83,Medium,5.052976385206406,118.76146800617926
+Highly Reliable,Clear,18.42,Afternoon,3,0.09,Tools,1,Low,Good,Open Field,3.16,1,57.27,Medium,4.942795689190283,118.37419966335432
+Reliable,Blurry,2.97,Night,3,3.71,None,2,Low,Low,Forest,3.01,1,86.9,High,5.119296575759676,118.82075404999591
+Unverified,Clear,26.79,Afternoon,4,1.01,None,5,Low,Good,Urban,17.63,4,44.23,Medium,5.177626243749237,118.14903639291589
+Highly Reliable,Clear,4.26,Evening,7,9.45,Weapons,4,High,Good,Open Field,39.94,2,90.41,High,4.955848285245612,118.25498407398342
+Highly Reliable,Blurry,9.0,Morning,8,7.01,None,3,Medium,Good,Open Field,13.6,2,80.88,High,5.018889992943335,118.28094141375487
+Reliable,Blurry,8.32,Evening,7,5.47,None,2,Medium,Good,Open Field,2.74,2,80.62,High,5.196637730454519,118.28107571451176
+Reliable,Blurry,17.94,Afternoon,6,5.06,Tools,1,Low,Good,Urban,49.98,2,62.95,Medium,4.979081963905472,118.68003090346679
+Unverified,Clear,69.41,Evening,7,2.0,Weapons,2,Medium,Low,Forest,23.42,7,0.0,Low,4.957248373511937,118.46574219354592
+Highly Reliable,Clear,8.97,Evening,7,2.6,Tools,4,Medium,Good,Forest,5.64,3,77.79,High,5.013902950805447,118.75738837917572
+Unverified,Clear,0.52,Evening,4,2.58,Weapons,1,Medium,Good,Forest,38.2,3,91.36,High,5.019610362079977,118.68027031903475
+Highly Reliable,Clear,0.53,Morning,6,7.76,None,3,Low,Good,Forest,39.41,0,94.98,High,5.131910119725425,118.75909737443732
+Reliable,Clear,12.39,Afternoon,5,4.05,Tools,4,Low,Good,Urban,23.86,1,71.4,High,4.989146273373208,118.8154264364512
+Highly Reliable,Blurry,47.95,Morning,7,9.36,None,3,Low,Good,Forest,42.71,0,12.89,Low,4.930419407245856,118.76068017189985
+Unverified,Clear,3.18,Afternoon,3,7.94,None,4,High,Good,Forest,26.54,0,89.11,High,5.013051765093285,118.55080233876629
+Unverified,Blurry,13.82,Night,7,6.81,None,1,Low,Good,Open Field,39.09,2,71.81,High,5.010963576973376,118.48209517443127
+Highly Reliable,Blurry,16.61,Evening,3,6.14,None,1,Medium,Good,Urban,33.93,1,64.46,Medium,5.058862734535182,118.20387131984505
+Unverified,Clear,2.79,Evening,8,3.9,Weapons,1,Low,Good,Urban,42.36,1,89.55,High,5.064246623416724,118.22966028437455
+Reliable,Clear,15.64,Night,6,0.36,Weapons,2,Medium,Good,Forest,27.11,3,64.11,Medium,5.1425071763674675,118.25462481991374
+Reliable,Obstructed,14.16,Morning,12,0.43,Weapons,5,Medium,Low,Open Field,41.5,1,68.97,Medium,5.055585201383614,118.53091921799158
+Highly Reliable,Clear,9.99,Afternoon,5,6.34,None,6,Medium,Moderate,Urban,30.5,1,77.15,High,5.147423116357931,118.35243837916664
+Highly Reliable,Obstructed,19.52,Morning,6,1.02,Tools,0,High,Good,Mountainous,30.23,2,57.49,Medium,5.063847677668948,118.32279025813551
+Highly Reliable,Clear,27.12,Night,7,1.39,Tools,1,Low,Good,Urban,47.08,3,45.0,Medium,4.986519706110816,118.93183666852444
+Reliable,Blurry,5.79,Afternoon,3,5.27,None,2,Low,Good,Open Field,44.57,1,82.96,High,5.067977934521833,118.56754895013098
+Highly Reliable,Obstructed,66.75,Night,5,0.51,Tools,3,High,Moderate,Forest,34.96,1,0.0,Low,5.091657977249626,118.16750177135003
+Unverified,Blurry,2.85,Afternoon,4,6.75,Weapons,6,Low,Good,Open Field,24.82,3,90.0,High,5.18390304239447,118.37962304146774
+Highly Reliable,Clear,8.0,Afternoon,4,5.21,Weapons,2,Low,Moderate,Mountainous,26.1,3,79.91,High,4.963355625373315,118.95946629253913
+Highly Reliable,Obstructed,1.4,Night,4,7.29,Weapons,2,Low,Good,Forest,11.68,4,93.14,High,4.988555111751803,118.16508031197543
+Highly Reliable,Clear,27.28,Afternoon,9,3.33,None,2,Low,Good,Mountainous,31.24,2,46.66,Medium,5.08219543048437,118.98102977494715
+Unverified,Blurry,18.0,Night,2,8.57,None,0,Low,Low,Forest,7.81,4,63.84,Medium,5.02401281541582,118.46834709634005
+Unverified,Clear,31.59,Night,3,9.2,Tools,0,Low,Good,Forest,33.03,1,40.08,Medium,5.175363784871168,118.98909526024124
+Highly Reliable,Clear,2.3,Evening,1,6.79,Tools,2,Medium,Moderate,Urban,36.72,3,89.68,High,5.076211735703266,118.96161436116272
+Reliable,Blurry,0.48,Morning,7,8.29,Tools,4,Low,Good,Urban,2.38,5,96.96,High,4.9115281917669185,118.7155110109817
+Reliable,Blurry,64.12,Afternoon,5,6.75,Tools,0,High,Good,Open Field,19.72,1,0.0,Low,4.997560062538017,118.31038002167674
+Reliable,Clear,34.0,Night,6,0.82,Tools,2,Low,Moderate,Mountainous,16.32,1,31.61,Medium,4.977754440958629,118.46318399002666
+Reliable,Clear,26.84,Morning,4,2.95,Weapons,2,Low,Good,Urban,42.04,2,44.98,Medium,5.015183175598356,118.66046999622449
+Highly Reliable,Clear,19.05,Evening,8,7.77,None,3,Medium,Good,Open Field,23.25,2,63.66,Medium,4.912283833891283,118.52220313602845
+Reliable,Clear,0.48,Morning,5,0.04,None,4,Low,Good,Forest,37.93,0,89.53,High,4.929038779787773,118.30773423332401
+Highly Reliable,Clear,19.94,Morning,3,8.69,Tools,2,Low,Moderate,Forest,43.42,2,60.5,Medium,5.082844370496395,118.73868205038953
+Reliable,Blurry,1.85,Morning,7,8.4,None,2,Medium,Good,Forest,34.69,2,93.96,High,5.131905277919146,118.21472157389475
+Highly Reliable,Clear,31.49,Night,8,7.08,Tools,0,Low,Moderate,Urban,49.06,1,41.06,Medium,5.136096015826977,118.26344262317241
+Unverified,Clear,22.09,Morning,9,8.57,None,3,Low,Low,Urban,3.08,0,58.83,Medium,4.984441931251893,118.65879167998054
+Highly Reliable,Blurry,3.41,Night,11,7.45,None,5,Low,Good,Forest,21.61,1,92.12,High,5.058605611201409,118.21248999453866
+Highly Reliable,Obstructed,10.6,Night,4,2.1,Weapons,6,Medium,Low,Urban,47.1,0,72.61,High,5.081650179685151,118.28891897230977
+Highly Reliable,Clear,1.74,Evening,10,3.76,Tools,2,Low,Moderate,Open Field,13.66,1,92.19,High,5.009731518853205,118.55825694734094
+Unverified,Clear,45.3,Morning,3,0.89,Weapons,1,Low,Good,Forest,48.32,0,10.2,Low,4.988965458343725,118.24071700632221
+Reliable,Clear,10.79,Morning,6,8.29,None,2,Low,Good,Urban,4.12,2,77.69,High,5.128899361559114,118.1996432545501
+Unverified,Clear,9.35,Morning,3,4.62,None,0,Medium,Good,Forest,37.37,6,77.36,High,5.058057698557142,118.252064940276
+Unverified,Clear,8.66,Afternoon,2,9.31,Weapons,2,Low,Moderate,Forest,40.43,2,80.35,High,5.0698227823638184,118.4808866576607
+Highly Reliable,Blurry,2.32,Night,4,3.11,Tools,1,Low,Moderate,Open Field,7.89,4,88.75,High,5.166118853496628,118.56260869769754
+Reliable,Clear,17.26,Evening,6,1.15,Weapons,5,Low,Good,Open Field,46.65,2,61.56,Medium,5.156334999806811,118.93182144097256
+Highly Reliable,Obstructed,13.14,Afternoon,3,8.88,Tools,4,Low,Moderate,Mountainous,24.94,1,72.39,High,5.118376237521319,118.33894757610987
+Unverified,Blurry,118.21,Night,3,9.25,Tools,2,Medium,Good,Urban,15.16,2,0.0,Low,5.027652514255204,118.10000053146281
+Reliable,Clear,15.37,Morning,4,4.85,Weapons,3,Medium,Good,Urban,45.59,2,66.46,Medium,5.029171509140008,118.53008147491819
+Reliable,Obstructed,8.9,Afternoon,3,1.47,Weapons,3,Low,Low,Urban,42.74,0,74.75,High,5.055967016569096,118.75061341795939
+Reliable,Blurry,76.19,Night,5,8.75,None,3,High,Low,Urban,6.93,2,0.0,Low,5.190000312716021,118.7864780631436
+Highly Reliable,Clear,18.59,Morning,2,4.95,Weapons,3,Low,Low,Mountainous,2.75,1,59.75,Medium,5.056211388495306,118.76284630802905
+Highly Reliable,Clear,1.32,Afternoon,8,7.3,Weapons,1,Medium,Moderate,Forest,31.19,1,94.39,High,5.048593724846168,118.85031113152066
+Highly Reliable,Clear,7.24,Morning,4,8.43,Tools,3,Medium,Good,Open Field,42.17,0,82.72,High,5.015576087494414,118.14014770181919
+Unverified,Clear,8.14,Night,13,4.52,None,5,Low,Low,Forest,38.37,4,83.39,High,5.035964327868479,118.65838590149377
+Highly Reliable,Clear,4.04,Afternoon,6,9.64,None,3,High,Low,Open Field,4.03,2,90.48,High,5.142590981152184,118.6812912214067
+Highly Reliable,Blurry,22.86,Morning,7,3.51,None,5,Low,Moderate,Forest,29.12,2,53.69,Medium,5.042768388727833,118.37558259738746
+Highly Reliable,Blurry,20.65,Afternoon,7,7.07,Tools,0,Low,Good,Forest,42.32,1,59.72,Medium,5.193631037509022,118.59731621014225
+Highly Reliable,Clear,3.7,Evening,6,7.54,None,2,Low,Good,Open Field,47.25,2,89.69,High,4.949947972332202,118.24059088051166
+Highly Reliable,Clear,24.86,Evening,4,2.98,Weapons,3,Medium,Good,Urban,27.35,1,48.27,Medium,5.182698074323063,118.2748809605565
+Highly Reliable,Obstructed,15.15,Morning,3,1.0,Tools,3,Medium,Good,Urban,13.86,5,64.52,Medium,4.986012993871978,118.3684758967793
+Highly Reliable,Clear,1.81,Night,9,4.16,Weapons,1,Low,Low,Forest,21.59,1,91.89,High,5.084679018115313,118.7590564556081
+Reliable,Blurry,26.23,Night,4,8.63,Tools,1,Low,Good,Urban,39.38,2,49.81,Medium,5.023689504297745,118.33664690731146
+Highly Reliable,Clear,3.41,Morning,3,0.24,Tools,7,Low,Good,Mountainous,46.49,2,84.05,High,5.153104312169124,118.68120860337073
+Highly Reliable,Clear,34.75,Evening,6,1.61,None,7,Medium,Low,Forest,29.63,1,30.81,Medium,5.177518256992467,118.49278187876423
+Highly Reliable,Clear,9.51,Night,8,7.64,Weapons,5,Low,Moderate,Urban,27.25,1,80.17,High,5.192532108846191,118.27049223223177
+Unverified,Clear,30.42,Night,9,3.89,Tools,1,Low,Moderate,Urban,17.15,3,41.72,Medium,5.103421203580284,118.62267763536768
+Highly Reliable,Clear,8.36,Evening,1,0.1,Weapons,5,Low,Low,Open Field,13.62,3,74.57,High,5.101670448078192,118.48388814366494
+Unverified,Blurry,23.95,Night,6,1.81,Weapons,3,High,Low,Forest,13.29,1,49.98,Medium,4.964380784115946,118.13601102039215
+Highly Reliable,Clear,23.11,Evening,8,1.9,Tools,3,Low,Moderate,Open Field,31.9,1,52.41,Medium,5.064631986749076,118.92277209645547
+Highly Reliable,Clear,7.2,Night,3,8.01,Tools,4,High,Good,Urban,26.49,1,82.29,High,5.117620821470241,118.39670528939573
+Highly Reliable,Clear,26.69,Afternoon,4,5.22,Tools,0,Medium,Low,Urban,21.73,1,46.53,Medium,5.126019951114202,118.84207903431951
+Highly Reliable,Blurry,16.26,Evening,4,9.47,Tools,2,Low,Good,Urban,37.56,2,67.94,Medium,4.957498966489124,118.3279363195189
+Reliable,Clear,2.17,Evening,4,7.34,Weapons,3,Medium,Good,Mountainous,11.15,3,91.59,High,5.00428867291853,118.41917161033119
+Highly Reliable,Blurry,10.71,Morning,8,0.86,None,3,Low,Low,Forest,32.71,2,73.8,High,4.902361995895597,118.67884946473522
+Unverified,Clear,72.51,Night,6,6.7,Tools,2,Low,Good,Urban,47.58,3,0.0,Low,5.077436090616253,118.60032652679355
+Highly Reliable,Blurry,39.74,Evening,3,3.27,None,4,Low,Good,Forest,11.7,3,22.23,Low,4.978004618229939,118.11700078163481
+Unverified,Clear,4.74,Morning,6,0.91,Tools,2,Medium,Good,Urban,0.53,4,83.91,High,5.156139453620149,118.52281014991907
+Highly Reliable,Clear,23.84,Afternoon,1,9.75,Weapons,6,Low,Good,Mountainous,10.22,1,53.22,Medium,4.972435434235074,118.20392854631316
+Highly Reliable,Clear,5.99,Morning,3,2.26,Weapons,4,High,Good,Forest,40.6,0,80.4,High,5.000530638870558,118.77382786646999
+Highly Reliable,Blurry,64.59,Night,8,8.48,Weapons,4,Low,Good,Urban,14.06,3,0.0,Low,4.945008844536919,118.73586410922772
+Reliable,Clear,7.39,Afternoon,4,0.16,Weapons,2,High,Moderate,Urban,45.55,3,77.64,High,4.938181998935866,118.69401533045706
+Highly Reliable,Clear,28.32,Afternoon,6,0.37,Tools,4,Low,Good,Open Field,21.77,4,41.99,Medium,4.981304062644551,118.63489600620419
+Highly Reliable,Blurry,6.88,Evening,2,3.78,Weapons,2,Medium,Good,Open Field,36.92,4,80.28,High,4.928599470387854,118.12734083507658
+Reliable,Obstructed,6.33,Night,6,5.46,Tools,4,Low,Moderate,Mountainous,32.97,3,83.9,High,5.01310165841435,118.92068902001104
+Highly Reliable,Blurry,93.61,Evening,8,0.88,Weapons,3,High,Good,Forest,10.02,1,0.0,Low,5.032699578901134,118.84015564834435
+Highly Reliable,Clear,19.69,Evening,4,7.1,Weapons,4,Medium,Good,Urban,44.71,1,60.11,Medium,5.187931456976507,118.8149880435904
+Highly Reliable,Clear,13.63,Night,4,8.62,Tools,5,Low,Good,Urban,6.31,2,72.02,High,5.141095184921773,118.63920314223327
+Reliable,Clear,1.33,Afternoon,4,7.24,Weapons,3,Low,Good,Urban,40.19,2,92.79,High,5.179976016073819,118.6950414073988
+Highly Reliable,Clear,55.6,Night,3,2.26,Tools,4,High,Moderate,Urban,14.24,2,0.0,Low,5.15255524866199,118.12273615027638
+Highly Reliable,Clear,2.39,Afternoon,8,1.97,Weapons,3,Low,Moderate,Urban,24.58,4,89.64,High,5.016636682085317,118.14319721008283
+Reliable,Obstructed,10.6,Night,4,6.36,Weapons,1,Low,Moderate,Open Field,2.13,2,75.86,High,5.18317270055409,118.11537751853459
+Reliable,Clear,0.19,Afternoon,6,7.36,None,3,High,Good,Open Field,5.81,3,95.98,High,5.194129734695309,118.86568144061732
+Highly Reliable,Blurry,31.62,Evening,5,5.81,None,3,High,Low,Open Field,13.49,1,38.67,Medium,5.099185840036982,118.94566320926249
+Highly Reliable,Clear,34.05,Afternoon,6,0.89,Tools,4,Medium,Moderate,Open Field,20.31,4,32.23,Medium,5.094509007558952,118.19153595608104
